@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .flex-box{
+        @apply flex justify-center items-center
+    }
+    .para{
+        @apply font-[500] 
+    }
+    .test{
+        @apply border-2 border-red-600
+    }
+}
